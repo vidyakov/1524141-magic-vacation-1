@@ -18,6 +18,10 @@
   color: $c-dark;
   border-radius: 50%;
 
+  // My code
+  transition: all .3s;
+
+
   @media (max-width: $tablet) and (orientation: portrait) {
     display: none;
   }
@@ -35,6 +39,9 @@
     background-color: $c-light;
     border: 2px solid $c-light;
     z-index: -1;
+
+    // My code
+    transition: all .3s;
   }
 
   svg {
@@ -168,6 +175,9 @@
   color: $c-light;
   border: 2px solid transparent;
   border-radius: 50%;
+
+  // My code
+  transition: all .3s;
 
   @media (min-width: $stop-scaling) {
     width: 40px;
